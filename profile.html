@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link href="http://fonts.cdnfonts.com/css/mulish" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <nav class="custom-navbar">
+      <div class="container-list-menu">
+        <a class="navbar-brand" href="index.html">
+          <img src="./assets/images/logo.png" alt="" width="249" height="83" />
+        </a>
+
+        <div class="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item no-dropdwon">
+              <a
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Whitelist
+              </a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown line-bottom">
+                <a
+                  class="dropdown-toggle"
+                  href="kursus.html"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Kursus
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="kursus.html">Videography</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html">Photography</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html">Animation</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html"
+                      >Motion Branding</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html"
+                      >Creative Career</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html"
+                      >Graphic Design</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html">Branding</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html">Audio Mixing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html">Illustration</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kursus.html">UI/UX Design</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item no-dropdwon">
+              <a href="educator.html" aria-expanded="false"> Educator </a>
+            </li>
+
+            <li class="no-dropdwon input-search">
+              <i class="fas fa-search"></i>
+              <span class="vertical-line-icon">|</span>
+              <input
+                type="text"
+                placeholder="Cari kursus, edukator atau topik"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-flex align-items-center login">
+          <li class="nav-item">
+            <div class="dropdown line-bottom">
+              <a
+                class="dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Joshua
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Videography</a></li>
+                <li><a class="dropdown-item" href="#">Photography</a></li>
+                <li><a class="dropdown-item" href="#">Animation</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="text-white" href="#">Masuk</a>
+          </li>
+          <i class="fa-solid fa-bars togle-menu"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-profile">
+      <section class="container-upload-file">
+        <div class="defaultimgprofile">
+          <img src="./assets/images/defaultprofile.png" alt="" />
+          <p>Maks. size 500kb</p>
+        </div>
+        <div class="input-upload">
+          <button class="pilih-file">Pilih File</button>
+          <p>Tidak ada file yang dipilih</p>
+          <button class="simpan-perubahan">Simpan Perubahan</button>
+        </div>
+      </section>
+
+      <section class="container-input-profile">
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-6 container-profile-you">
+            <p>Profile Kamu</p>
+            <div class="input-you mb-4">
+              <label for="">Nama Lengkap</label>
+              <input type="text" />
+            </div>
+            <div class="row mb-4">
+              <div class="input-you col-md-5">
+                <label for="">Hobi & Pekerjaan</label>
+                <input type="text" />
+              </div>
+              <div class="input-you col-md-5">
+                <input type="text" />
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="input-you col-md-4">
+                <label for="">Tanggal Lahir</label>
+                <input type="text" />
+              </div>
+              <div class="input-you col-md-4">
+                <input type="text" />
+              </div>
+              <div class="input-you col-md-4">
+                <input type="text" />
+              </div>
+            </div>
+
+            <div class="input-you-jenis col">
+              <label for="">Jenis Kelamin</label>
+              <input type="checkbox" /><span>Laki-Laki</span>
+              <input type="checkbox" /><span>Perempuan</span>
+            </div>
+
+            <div class="row mb-4">
+              <div class="input-you col-md-5">
+                <label for="">Tempat Tinggal</label>
+                <input type="text" />
+              </div>
+              <div class="input-you col-md-5">
+                <input type="text" />
+              </div>
+            </div>
+
+            <div class="input-you mb-4">
+              <label for="">No. Handphone</label>
+              <input type="text" />
+            </div>
+
+            <button>Simpan</button>
+          </div>
+          <div class="col-md-5 container-change-password">
+            <p>Ubah Password</p>
+            <div class="input-prof mb-4">
+              <label for="">Password Lama</label>
+              <input type="text" />
+            </div>
+            <div class="input-prof mb-4">
+              <label for="">Password Baru</label>
+              <input type="text" />
+            </div>
+            <div class="input-prof mb-4">
+              <label for="">Konfirmasi Password</label>
+              <input type="text" />
+            </div>
+            <button>Ubah Password</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div>
+      <footer class="container p-0 footer">
+        <div class="row">
+          <div class="col-md-4 footer-about">
+            <img src="./assets/images/logo.png" />
+            <h3>After Eight</h3>
+            <p>
+              After Eight adalah platform pembelajaran online khusus untuk anak
+              muda yang ingin belajar tentang industri kreatif.
+            </p>
+          </div>
+          <div class="col-md-8 footer-contact">
+            <div class="d-flex justify-content-between mb-4">
+              <p>ikuti kami di sosial media yuk!</p>
+              <div class="footer-social-logo">
+                <div class="icon-social-instagram">
+                  <img src="./assets/images/instagram.png" alt="" />
+                </div>
+                <div class="icon-social-youtube">
+                  <img src="./assets//images/youtube.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <p>Kebijakan</p>
+                <div class="footer-contact-submenu">
+                  <p>Syarat & Ketentuan</p>
+                  <p>Kebijakan Privasi</p>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <p>hubungi kami</p>
+                <div class="footer-contact-submenu">
+                  <p>Email:</p>
+                  <p>aftereight@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="copyright">
+        <div class="d-flex justify-content-between container p-0">
+          <p class="copyright-text">
+            All Right Reserved.
+            <span><i class="fas fa-copyright"></i></span> Copyright 2022 After
+            eight
+          </p>
+          <p class="copyright-text">Developed by Sculpt Visual</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HEADER END -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/custom.js"></script>
+  </body>
+</html>
